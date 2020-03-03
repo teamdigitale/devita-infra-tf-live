@@ -116,7 +116,7 @@ cd ../subnet_k8s-01 && terragrunt apply
 cd ../key_vault && terragrunt apply
 
 # Kubernetes
-cd ../key_vault_secret_ssh_keys_vm && terragrunt apply
+cd ../key_vault_secret_ssh_keys && terragrunt apply
 cd ../service_principal_k8s-01 && terragrunt apply
 cd ../service_principal_k8s-01-aad-server && terragrunt apply
 ```
@@ -138,6 +138,10 @@ cd ../service_principal_k8s-01-aad-client && terragrunt apply
 * Navigate to https://portal.azure.com -> Azure Active Directory -> io-{dev|prod}-sp-k8s-01-aad-client
 
 API permissions -> Grant admin consent -> yes
+
+```shell
+cd ../public_ip_k8s_01 && terragrunt apply
+```
 
 ## How to contribute
 

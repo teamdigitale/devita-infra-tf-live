@@ -21,4 +21,4 @@ terragrunt = {
 
 # Public IP module variables
 azurerm_public_ip_name      = "k8s-01"
-azurerm_resource_group_name = "MC_dpt-services-prod-rg_dpt-services-prod-aks-k8s-01_westeurope"
+azurerm_resource_group_name = "MC_devita-prod-rg_devita-prod-aks-k8s-01_westeurope"
