@@ -1,6 +1,6 @@
 terragrunt = {
   terraform {
-    source = "git::git@github.com:teamdigitale/dpt-services-infra-tf-modules.git//azuread_group"
+    source = "git::git@github.com:teamdigitale/devita-infra-tf-modules.git//azuread_group"
   }
 
   # Include all settings from the root terraform.tfvars file

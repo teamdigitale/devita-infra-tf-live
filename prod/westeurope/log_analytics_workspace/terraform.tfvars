@@ -8,7 +8,7 @@ terragrunt = {
   }
 
   terraform {
-    source = "git::git@github.com:teamdigitale/dpt-services-infra-tf-modules.git//azurerm_log_analytics_workspace"
+    source = "git::git@github.com:teamdigitale/devita-infra-tf-modules.git//azurerm_log_analytics_workspace"
   }
 
   # Include all settings from the root terraform.tfvars file

@@ -10,7 +10,7 @@ terragrunt = {
   }
 
   terraform {
-    source = "git::git@github.com:teamdigitale/dpt-services-infra-tf-modules.git//azurerm_public_ip"
+    source = "git::git@github.com:teamdigitale/devita-infra-tf-modules.git//azurerm_public_ip"
   }
 
   # Include all settings from the root terraform.tfvars file
