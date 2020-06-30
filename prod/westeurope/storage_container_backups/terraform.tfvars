@@ -1,7 +1,7 @@
 terragrunt = {
   dependencies {
     paths = [
-      "../storage_account_data-lake-01"
+      "../storage_account_backups"
     ]
   }
 
