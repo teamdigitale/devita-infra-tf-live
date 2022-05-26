@@ -15,5 +15,5 @@ group_members_user_principal_name = [
   "a.sebastiani_teamdigitale.governo.it#EXT#@ttdsite.onmicrosoft.com",
   "leonardo_teamdigitale.governo.it#EXT#@ttdsite.onmicrosoft.com",
   "nicola.squartini_teamdigitale.governo.it#EXT#@ttdsite.onmicrosoft.com",
-  "fabio.bonelli_teamdigitale.governo.it#EXT#@ttdsite.onmicrosoft.com",
+  "fabio.bonelli_teamdigitale.governo.it#EXT#@ttdsite.onmicrosoft.com"
 ]
